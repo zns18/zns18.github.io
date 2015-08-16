@@ -1,5 +1,5 @@
 name: Zackary Scholl
-description:  About me
+description:  Research, programming, web development
 
 sass:
   sass_dir: assets/css/_sass
@@ -18,7 +18,7 @@ owner:
     github: schollz
     disqus_shortname: schollz-github
 
-ga_id: #
-ga_username: #
+ga_id: UA-2345677-4
+ga_username: auto
 
 timezone: Africa/Accra
