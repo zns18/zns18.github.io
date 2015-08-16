@@ -1,5 +1,5 @@
 name: Zackary Scholl
-description:  Research, programming, web development
+description:  Research in protein folding and biophysics
 
 sass:
   sass_dir: assets/css/_sass
@@ -14,10 +14,10 @@ relative_permalinks: true
 #permalink: /:year/:month/:title/
 permalink: /:title/
 owner:
-    name: schollz
+    name: zns18
     twitter: zack_118
-    github: schollz
-    disqus_shortname: rpiai
+    github: zns18
+    disqus_shortname: #
 
 ga_id: UA-2345677-4
 ga_username: auto
