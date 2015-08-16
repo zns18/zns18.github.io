@@ -1,5 +1,5 @@
-name: Wangana
-description:  Jekyll theme
+name: Schollz Github
+description:  Coding projects, and more!
 
 sass:
   sass_dir: assets/css/_sass
@@ -9,7 +9,7 @@ markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
-url: http://nadjetey.github.io/wangana
+url: http://schollz.github.io
 permalink: /:year/:month/:title/
 owner:
     name: #
