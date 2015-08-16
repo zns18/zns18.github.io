@@ -1,10 +1,16 @@
 ---
 layout: default
----
+--- 
+
+
 <div class="col-sm-12">
+    <div class="page">
+    <h2>Recent research:</h2>
+    </div>
     <div class="page">
         {% for post in site.posts %}
             {% if post.archive == false %}
+            {% if post.research == true %}
             <div class="page-item">
                 <div class="col-sm-8">
                     <ul class="page-item-title">
@@ -26,9 +32,22 @@ layout: default
                 </div>
             </div>
             {% endif %}
+            {% endif %}
         {% endfor %}
     </div>
 </div>
+
+<div class="col-sm-12">
+<hr>
+            <div class="col-sm-8">
+                    <img src="{{ "/assets/images/zack_poster.jpg" | prepend: site.url }}" alt="Zackary Scholl wins 2014 the Student Research Achievement Award" class="img-rounded img-responsive">  
+
+            </div>
+            <div class="col-sm-4">
+                <p class="lead">Pictured: Me and the poster that won the 2014 Biophysical Society Research Achievement Award</p>
+            </div>
+</div>
+
 <script>
 $(document).ready(function() {
     $(".page").children().first().find(".page-item-body").css( "display", "block" );

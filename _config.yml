@@ -1,5 +1,5 @@
-name: github.com/schollz
-description:  My coding projects
+name: Zackary Scholl
+description:  About me
 
 sass:
   sass_dir: assets/css/_sass
@@ -9,7 +9,8 @@ markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
-url: http://schollz.github.io
+# url: http://schollz.github.io
+relative_permalinks: true
 permalink: /:year/:month/:title/
 owner:
     name: schollz
