@@ -12,10 +12,10 @@ redcarpet:
 url: http://schollz.github.io
 permalink: /:year/:month/:title/
 owner:
-    name: #
-    twitter: #
-    github: #
-    disqus_shortname: #
+    name: schollz
+    twitter: zack_118
+    github: schollz
+    disqus_shortname: zackarynscholl
 
 ga_id: #
 ga_username: #
