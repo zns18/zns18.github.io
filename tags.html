@@ -2,6 +2,8 @@
 layout: default
 title: Tags
 ---
+
+
 <!-- Thanks to [LanyonM](https://github.com/LanyonM/lanyonm.github.io/blob/master/tags.html)
 for the tutorial on leaders w/ js -->
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
@@ -10,7 +12,7 @@ for the tutorial on leaders w/ js -->
 {{ site_tags | split:',' | size }}
 {% endcapture %}
 <!-- num_words -->
-{% assign tag_words = site_tags | split:',' | sort %}
+{% assign tag_words = site_tags | split:',' | trim %}
 <!-- tag_words -->
 <div class="col-sm-12">
     <div class="page-title">
@@ -19,7 +21,8 @@ for the tutorial on leaders w/ js -->
     <div class="page-content">
         <ul class="leaders">
             {% for item in (0..num_words) %}{% unless forloop.last %}
-            {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+            {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
+            {% if site.tags[this_word].size > 0 %}
             <li>
                 <span class="leaders-left">{{ site.tags[this_word].size }}</span>
                 <a class="leaders-right dropdown-tags" data-for="#tag-pages{{item}}">
@@ -39,6 +42,7 @@ for the tutorial on leaders w/ js -->
                 </li>
                 {% endif %}{% endfor %}
             </ul>
+            {% endif %}
             {% endunless %}{% endfor %}
         </ul>
     </div>

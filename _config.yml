@@ -11,12 +11,13 @@ redcarpet:
 
 # url: http://schollz.github.io
 relative_permalinks: true
-permalink: /:year/:month/:title/
+#permalink: /:year/:month/:title/
+permalink: /:title/
 owner:
     name: schollz
     twitter: zack_118
     github: schollz
-    disqus_shortname: schollz-github
+    disqus_shortname: rpiai
 
 ga_id: UA-2345677-4
 ga_username: auto

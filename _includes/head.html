@@ -8,10 +8,13 @@
         <link rel="alternate" type="application/atom+xml" title="{{site.name}}" href="{{site.url}}/feed.xml">
         <!-- Loop and attach page tags from page meta section -->
         {% if page.tags %}
-        <meta name="keywords" content="{{ page.tags }}">
+        <meta name="keywords" content="{{ page.tags|join('8 ') }}">
         {% else %}
         <meta name="keywords" content="">
-        {% endif %}     
+        {% endif %} 
+        {% if page.description %}
+        <meta name="description" content="{{ page.description }}">
+        {% endif %}             
         <link rel="icon" type="image/png" href="{{ "/favicon.png" | prepend: site.url }}">
         <!-- Custom CSS -->
         <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.url }}">

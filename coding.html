@@ -3,32 +3,141 @@ layout: default
 ---
 <div class="col-sm-12">
     <div class="page">
-        {% for post in site.posts %}
-            {% if post.archive == false %}
-            {% if post.coding == true %}
+
+
+            
             <div class="page-item">
                 <div class="col-sm-8">
                     <ul class="page-item-title">
-                        <li><time class="timeago meta" datetime="{{ post.date |  date: "%A %-d %B %Y" }}">{{ post.date }}</time>
-                        <a class="meta pull-right comments-meta" href="{{ post.link }}">source <i class="fa fa-code fa-lg"></i></a></li>
-                        <li><a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></li>
+                        <li><time class="timeago meta" datetime="{{ "2015-05-03" |  date: "%A %-d %B %Y" }}">{{ "2015-05-03" }}</time>
+                        <a class="meta pull-right comments-meta" href="https://github.com/schollz/string_matching">source <i class="fa fa-code fa-lg"></i></a></li>
+                        <li><a class="title" href="/faster-string-matching/">Faster string matching in Python</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-4 hide-on-phone">
                     <ul class="page-item-title pull-right meta">
-                        <li><a href="{{ post.link }}" target="_blank">source <i class="fa fa-code"></i></a></li>
-                        <li><a href="{{ post.url | prepend: site.url }}">more <i class="fa fa-ellipsis-h"></i></a></li>
+                        <li><a href="https://github.com/schollz/string_matching" target="_blank">source <i class="fa fa-code"></i></a></li>
+                        <li><span class="stars">2 <i class="fa fa-star-o"></i></span></li>
                         <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-sm-12 page-item-body">
-                    {{post.excerpt}}
+                    I constantly find myself in a situation where I need to have the user enter a string and find the best match for that string from a list of strings. To solve this I made a hash table of string doublets.
                 </div>
             </div>
-            {% endif %}
-            {% endif %}
-        {% endfor %}
+
+
+    
+            <div class="page-item">
+                <div class="col-sm-8">
+                    <ul class="page-item-title">
+                        <li><time class="timeago meta" datetime="{{ "2015-04-18" |  date: "%A %-d %B %Y" }}">{{ "2015-05-03" }}</time>
+                        <a class="meta pull-right comments-meta" href="https://github.com/schollz/beowulf_ssh_cluster">source <i class="fa fa-code fa-lg"></i></a></li>
+                        <li><a class="title" href="/beowulf-cluster/">Beowulf SSH cluster</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 hide-on-phone">
+                    <ul class="page-item-title pull-right meta">
+                        <li><a href="https://github.com/schollz/beowulf_ssh_cluster" target="_blank">source <i class="fa fa-code"></i></a></li>
+                        <li><span class="stars">8 <i class="fa fa-star-o"></i></span></li>
+                        <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 page-item-body">
+                    Skeleton program for a simple Beowulf cluster that uses ssh to communicate. Simple to use and simple to code.
+                </div>
+            </div>
+
+
+    
+            <div class="page-item">
+                <div class="col-sm-8">
+                    <ul class="page-item-title">
+                        <li><time class="timeago meta" datetime="{{ "2015-02-27" |  date: "%A %-d %B %Y" }}">{{ "2015-05-03" }}</time>
+                        <a class="meta pull-right comments-meta" href="https://github.com/schollz/extract_recipe">source <i class="fa fa-code fa-lg"></i></a></li>
+                        <li><a class="title" href="/internet-sieve/">Recipe and nutrition extractor</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 hide-on-phone">
+                    <ul class="page-item-title pull-right meta">
+                        <li><a href="https://github.com/schollz/extract_recipe" target="_blank">source <i class="fa fa-code"></i></a></li>
+                        <li><span class="stars">2 <i class="fa fa-star-o"></i></span></li>
+                        <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 page-item-body">
+                    Simplifies the extraction of recipes and ingredients from websites and can automatically cross-reference the nutrition against the USDA database.
+                </div>
+            </div>
+
+        
+            <div class="page-item">
+                <div class="col-sm-8">
+                    <ul class="page-item-title">
+                        <li><time class="timeago meta" datetime="{{ "2014-11-30" |  date: "%A %-d %B %Y" }}">{{ "2015-05-03" }}</time>
+                        <a class="meta pull-right comments-meta" href="http://github.com/schollz/poetry-generator">source <i class="fa fa-code fa-lg"></i></a></li>
+                        <li><a class="title" href="/poetry-generator/">Poetry generator</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 hide-on-phone">
+                    <ul class="page-item-title pull-right meta">
+                        <li><a href="http://github.com/schollz/poetry-generator" target="_blank">source <i class="fa fa-code"></i></a></li>
+                        <li><span class="stars">74 <i class="fa fa-star-o"></i></span></li>
+                        <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 page-item-body">
+                    Python-based Poetry generator that can generate poetry that is suitable to pass the Turing test.
+                </div>
+            </div>
+            
+            
+            <div class="page-item">
+                <div class="col-sm-8">
+                    <ul class="page-item-title">
+                        <li><time class="timeago meta" datetime="{{ "2014-03-26" |  date: "%A %-d %B %Y" }}">{{ "2015-05-03" }}</time>
+                        <a class="meta pull-right comments-meta" href="https://github.com/schollz/motion_sensor_diy/">source <i class="fa fa-code fa-lg"></i></a></li>
+                        <li><a class="title" href="/open-source-motion-sensor/">Open-source motion sensor</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 hide-on-phone">
+                    <ul class="page-item-title pull-right meta">
+                        <li><a href="https://github.com/schollz/motion_sensor_diy/" target="_blank">source <i class="fa fa-code"></i></a></li>
+                        <li><span class="stars">0 <i class="fa fa-star-o"></i></span></li>
+                        <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 page-item-body">
+                    The motion sensor is simply a PIR sensor connected to a 434MHz RF transmitter via an encoder. The encoder uses four bits, in the form of resistors tied to HIGH (+VCC) or LOW (GND). That's enough for 12 sensors. The ATtiny85 is programmed via an Arduino which allows for devising a smart way of sending the RF data. It can be programmed to send the output as randomized timed sequences in order to reduce the conflicts of having other motion sensors on the same band.
+                </div>
+            </div>
+
+
+            <div class="page-item">
+                <div class="col-sm-8">
+                    <ul class="page-item-title">
+                        <li><time class="timeago meta" datetime="{{ "2014-02-05" |  date: "%A %-d %B %Y" }}">{{ "2015-05-03" }}</time>
+                        <a class="meta pull-right comments-meta" href="https://github.com/schollz/rpi_ai">source <i class="fa fa-code fa-lg"></i></a></li>
+                        <li><a class="title" href="/raspberry-pi-ai/">Raspberry Pi enabled AI</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 hide-on-phone">
+                    <ul class="page-item-title pull-right meta">
+                        <li><a href="https://github.com/schollz/rpi_ai" target="_blank">source <i class="fa fa-code"></i></a></li>
+                        <li><span class="stars">15 <i class="fa fa-star-o"></i></span></li>
+                        <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 page-item-body">
+                    Artificial intelligence fully capable of STT, TTS, facial recognition and and rudimentary facial features.
+                </div>
+            </div>
     </div>
 </div>
 <script>
