@@ -1,0 +1,102 @@
+---
+layout: default
+---
+<div class="col-sm-12">
+    <div class="page">
+    <p>I currently maintain the following websites:</p>
+    </div>
+    <div class="page">
+
+            <div class="page-item">
+                <div class="col-sm-8">
+                    <ul class="page-item-title">
+                        <li><a class="title" href="http://www.musicsuggestions.ninja/">Music Suggestions Ninja</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 hide-on-phone">
+                    <ul class="page-item-title pull-right meta">
+                        <li><span class="stats">4,000 users/month <i class="fa fa-users"></i></span>
+                        <li><a href="http://www.musicsuggestions.ninja/">link<i class="fa fa-ellipsis-h"></i></a></li>
+                        <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 page-item-body">
+                    This site was born after I realized how many great bands I was missing because I don't attend the music festivals where bands are best sampled. I wanted a tool through which I could sample other bands and select them based on my musical preferences. To learn details about how I made it, check out my blog.
+                </div>
+            </div>
+
+            <div class="page-item">
+                <div class="col-sm-8">
+                    <ul class="page-item-title">
+                        <li><a class="title" href="http://sciencesowhatwhocares.xyz/">Science, so what? Who cares!</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 hide-on-phone">
+                    <ul class="page-item-title pull-right meta">
+                        <li><span class="stats">350 users/month <i class="fa fa-users"></i></span>
+                        <li><a href="http://sciencesowhatwhocares.xyz/">link<i class="fa fa-ellipsis-h"></i></a></li>
+                        <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 page-item-body">
+                    Simplified explanations for the most important results from recent research.
+                </div>
+            </div>
+            
+            
+            <div class="page-item">
+                <div class="col-sm-8">
+                    <ul class="page-item-title">
+                        <li><a class="title" href="http://rpiai.com/">Rasperry Pi AI</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 hide-on-phone">
+                    <ul class="page-item-title pull-right meta">
+                        <li><span class="stats">700 users/month <i class="fa fa-users"></i></span>
+                        <li><a href="http://rpiai.com/">link<i class="fa fa-ellipsis-h"></i></a></li>
+                        <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 page-item-body">
+                    Human attempts at artifical intelligence and other technological forays.
+                </div>
+            </div>            
+            
+            <div class="page-item">
+                <div class="col-sm-8">
+                    <ul class="page-item-title">
+                        <li><a class="title" href="http://cowyo.com/about">cowyo.com - an online notepad</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 hide-on-phone">
+                    <ul class="page-item-title pull-right meta">
+                        <li><span class="stats"><100 users/month <i class="fa fa-users"></i></span>
+                        <li><a href="http://cowyo.com/about">link<i class="fa fa-ellipsis-h"></i></a></li>
+                        <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 page-item-body">
+                    CowYo is a notepad - plain and simple! There are no buttons, no links, no ads - no distractions of any kind so it is truly simple! You can write directly from your desktop or mobile device.
+
+Everything you write is saved automatically. Each note has a unique URL which you can share with your friends to edit as well, or keep to access later!
+                </div>
+            </div>
+    </div>
+</div>
+<script>
+$(document).ready(function() {
+    $(".page").children().first().find(".page-item-body").css( "display", "block" );
+    $(".page").children().first().find(".pib-indicator")
+        .find("i").toggleClass("fa-compress").toggleClass("fa-expand");
+
+    $(".page-item .pib-indicator").click(function() {
+        var preview = $(this);
+        preview.find("i").toggleClass("fa-expand").toggleClass("fa-compress");
+        $(this).closest(".page-item").find(".page-item-body").toggle("slow", function() {});
+    });
+});
+</script>
