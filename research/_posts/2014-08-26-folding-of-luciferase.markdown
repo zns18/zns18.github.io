@@ -8,10 +8,11 @@ tags: protein, force-spectroscopy, single-molecule, Luciferase
 research: true
 link: http://dx.doi.org/10.1074/jbc.M114.582049
 ---
-<p class="lead">Traditional experiments show that Luciferase refolding requires the aids of chaperone proteins. We find that single-molecule experiments show that partially unfolded Luciferase can refold without chaperones but chaperones are required for refolding from complete denaturation. Our results indicate that the N-terminal domain of Luciferase serves to chaperone refolding and chaperones may serve to emulate this effect.</p>
+
 <p>
 <b>Scholl, Zackary N.</b>, Weitao Yang, and Piotr E. Marszalek. "Chaperones Rescue Luciferase Folding by Separating Its Domains." Journal of Biological Chemistry 289.41 (2014): 28607-28618. <a href="http://dx.doi.org/10.1074/jbc.M114.582049">Link</a>
 </p>
+<p class="lead">Traditional experiments show that Luciferase refolding requires the aids of chaperone proteins. We find that single-molecule experiments show that partially unfolded Luciferase can refold without chaperones but chaperones are required for refolding from complete denaturation. Our results indicate that the N-terminal domain of Luciferase serves to chaperone refolding and chaperones may serve to emulate this effect.</p>
 
 
 Over the last 50 years, significant progress has been made toward understanding how small single-domain proteins fold. However, very little is known about folding mechanisms of medium and large multidomain proteins that predominate the proteomes of all forms of life. Large proteins frequently fold cotranslationally and/or require chaperones. Firefly (Photinus pyralis) luciferase (Luciferase, 550 residues) has been a model of a cotranslationally folding protein whose extremely slow refolding (approximately days) is catalyzed by chaperones. However, the mechanism by which Luciferase misfolds and how chaperones assist Luciferase refolding remains unknown. 

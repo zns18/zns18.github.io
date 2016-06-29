@@ -4,6 +4,18 @@ layout: default
 
 
 <div class="col-sm-12">
+<hr>
+            <div class="col-sm-8">
+                    <img src="{{ "/assets/images/zack_poster.jpg" | prepend: site.url }}" alt="Zackary Scholl wins 2014 the Student Research Achievement Award" class="img-rounded img-responsive">  
+
+            </div>
+            <div class="col-sm-4">
+                <p class="lead">Pictured: Me and the poster that won the 2014 Biophysical Society Research Achievement Award</p>
+            </div>
+</div>
+
+
+<div class="col-sm-12">
     <div class="page">
     <h2>Recent research:</h2>
     </div>
@@ -14,7 +26,7 @@ layout: default
             <div class="page-item">
                 <div class="col-sm-8">
                     <ul class="page-item-title">
-                        <li><time class="timeago meta" datetime="{{ post.date |  date: "%A %-d %B %Y" }}">{{ post.date }}</time>
+                        <li><time class="timeago meta" datetime="{{ post.date |  date: "%A %-d %B %Y" }}">{{ post.date | date: '%B %d, %Y' }}</time>
                         <a class="meta pull-right comments-meta" href="{{ post.link }}">link <i class="fa fa-external-link fa-lg"></i></a></li>
                         <li><a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></li>
                     </ul>
@@ -35,17 +47,6 @@ layout: default
             {% endif %}
         {% endfor %}
     </div>
-</div>
-
-<div class="col-sm-12">
-<hr>
-            <div class="col-sm-8">
-                    <img src="{{ "/assets/images/zack_poster.jpg" | prepend: site.url }}" alt="Zackary Scholl wins 2014 the Student Research Achievement Award" class="img-rounded img-responsive">  
-
-            </div>
-            <div class="col-sm-4">
-                <p class="lead">Pictured: Me and the poster that won the 2014 Biophysical Society Research Achievement Award</p>
-            </div>
 </div>
 
 <script>

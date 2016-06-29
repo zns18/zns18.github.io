@@ -9,10 +9,10 @@ research: true
 link: http://dx.doi.org/10.1016/j.ultramic.2013.07.020
 ---
 
-<p class="lead">The benefits of single molecule force spectroscopy (SMFS) clearly outweigh the challenges which include small sample sizes, tedious data collection and introduction of human bias during the subjective data selection. These difficulties can be partially eliminated through automation of the experimental data collection process for atomic force microscopy (AFM). </p>
 <p>
 <b>Scholl, Zackary N.</b>, and Piotr E. Marszalek. "Improving single molecule force spectroscopy through automated real-time data collection and quantification of experimental conditions." Ultramicroscopy 136 (2014): 7-14.. <a href="http://dx.doi.org/10.1016/j.ultramic.2013.07.020">Link</a>
 </p>
+<p class="lead">The benefits of single molecule force spectroscopy (SMFS) clearly outweigh the challenges which include small sample sizes, tedious data collection and introduction of human bias during the subjective data selection. These difficulties can be partially eliminated through automation of the experimental data collection process for atomic force microscopy (AFM). </p>
 
 <div class="col-sm-12">
     <p align="center">

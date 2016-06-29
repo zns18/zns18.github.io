@@ -10,9 +10,9 @@ link: http://dx.doi.org/10.1103/PhysRevLett.111.188302
 ---
 
 
-<p class="lead">We hypothesize that a pronounced high-force transition observed for B-type helices of double stranded DNA also involves a cooperative flip of the γ torsion. These observations suggest new fundamental relationships between the canonical structures of single-and double-stranded DNA and the mechanism of their molecular elasticity.</p>
 <p>
 <b>Scholl, Zackary N.</b>, et al. "Origin of Overstretching Transitions in Single-Stranded Nucleic Acids." Physical review letters 111.18 (2013): 188302. <a href="http://dx.doi.org/10.1103/PhysRevLett.111.188302">Link</a></p>
+<p class="lead">We hypothesize that a pronounced high-force transition observed for B-type helices of double stranded DNA also involves a cooperative flip of the γ torsion. These observations suggest new fundamental relationships between the canonical structures of single-and double-stranded DNA and the mechanism of their molecular elasticity.</p>
 
 We combined single-molecule force spectroscopy with nuclear magnetic resonance measurements and molecular mechanics simulations to examine overstretching transitions in single-stranded nucleic acids. In single-stranded DNA and single-stranded RNA there is a low-force transition that involves unwinding of the helical structure, along with base unstacking. 
 

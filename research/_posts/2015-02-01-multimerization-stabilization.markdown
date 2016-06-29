@@ -9,12 +9,12 @@ research: true
 link: http://dx.doi.org/10.1021/nn504686f
 ---
 
-<p class="lead">Understanding how protein oligomerization affects the stability of monomers in self-assembled structures is crucial to the development of new protein-based nanomaterials and protein cages for drug delivery.
-<br></p>
 <p><b>Scholl, Zackary N.</b>, Weitao Yang, and Piotr E. Marszalek. "Direct Observation of Multimer Stabilization in the Mechanical Unfolding Pathway of a Protein Undergoing Oligomerization." ACS nano 9.2 (2015): 1189-1197. <a href="http://dx.doi.org/10.1021/nn504686">Link</a>
 </p>
+<p class="lead">Understanding how protein oligomerization affects the stability of monomers in self-assembled structures is crucial to the development of new protein-based nanomaterials and protein cages for drug delivery. Here, we use single-molecule force spectroscopy (AFM-SMFS), protein engineering, and computer simulations to evaluate how dimerization and tetramerization affects the stability of the monomer of Streptavidin, a model homotetrameric protein. 
+<br></p>
 
-Here, we use single-molecule force spectroscopy (AFM-SMFS), protein engineering, and computer simulations to evaluate how dimerization and tetramerization affects the stability of the monomer of Streptavidin, a model homotetrameric protein. 
+
 
 <div class="col-sm-12">
     <p align="center">
